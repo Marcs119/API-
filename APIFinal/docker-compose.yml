@@ -32,7 +32,7 @@ services:
     - python
     restart: unless-stopped
     ports:
-    - 9091:80
+    - 7777:80
 
   python:
     build: ./python
